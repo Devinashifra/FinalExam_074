@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Exam</title>
+</head>
+<body>
+    <script>
+        function get() {
+            const urlg = "http://localhost:8080/get";
+            
+        }
+
+        function post() {
+            const urlg = "http://localhost:8080/post"
+        }
+
+        function put() {
+            const urlg = "http://localhost:8080/put"
+        }
+
+        function delete() {
+            const urlg = "http://localhost:8080/delete"
+        }
+    </script>
+
+    ID <input type="text" id="myid" name="myid" /> <br/> <br/>
+    NIK <input type="text" id="nik" name="nik" /> <br/> <br/>
+    Name <input type="text" id="name" name="name" /> <br/><br/>
+    Tanggal Lahir <input type="date" id="tgl" name="tanggallahir" /> <br/><br/>
+
+    <br/>
+
+    <button onclick="get()">Get Data from Web Service</button> <br/><br/>
+    <button onclick="post()">Send Data from Web Service</button> <br/><br/>
+    <button onclick="put()">Edit Data from Web service</button> <br/><br/>
+    <button onclick="delete()">Delete Data from Web Service</button> <br/><br/>
+</body>
+</html>
